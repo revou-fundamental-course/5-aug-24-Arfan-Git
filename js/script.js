@@ -1,5 +1,5 @@
 var age = document.getElementById("age");
-var hsseight = document.getElementById("height");
+var height = document.getElementById("height");
 var weight = document.getElementById("weight");
 var male = document.getElementById("m");
 var female = document.getElementById("f");
@@ -11,7 +11,7 @@ modalText = document.querySelector("#modalText");
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
-ss
+
 function calculate(){
  
   if(age.value=='' || height.value=='' || weight.value=='' || (male.checked==false && female.checked==false)){
